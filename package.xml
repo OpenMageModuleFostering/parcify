@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+    <name>Parcify</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Parcify, never miss you parcel&#xD;
+&#xD;
+Magento extension for integrating with the Parcify app.</summary>
+    <description>Parcel delivery today isn&#x2019;t what it should be&#xD;
+We&#x2019;re still missing deliveries, unable to track parcels in real time and having to pick them up ourselves at depots. Why can&#x2019;t a parcel be picked up or delivered to my current location instead of a specific address?&#xD;
+&#xD;
+We want to change things by embracing the latest technologies while adding a personal touch. &#xD;
+&#xD;
+The Parcify app features:&#xD;
+- Personal pick up and delivery at your position&#xD;
+- Easy parcel creation&#xD;
+- Advanced parcel tracking for pick up and delivery&#xD;
+- Notifications about your parcels progress and status&#xD;
+- Real-time communication with everybody involved with your parcel&#xD;
+- Get reductions by using our coupons&#xD;
+- Sign-up to become a Parcify driver&#xD;
+....&#xD;
+- much more to come&#xD;
+&#xD;
+We use your GPS position in the foreground and background so that we can bring your parcel to your location. To be able to do this, Parcify needs to know your current location in real-time. Continued use of GPS running in the background can dramatically decrease battery life.</description>
+    <notes>Public release of the Parcify Magento extension</notes>
+    <authors><author><name>Parcify</name><user>parcify</user><email>app@parcify.com</email></author></authors>
+    <date>2016-06-02</date>
+    <time>14:43:27</time>
+    <contents><target name="mageetc"><dir name="Parcify"><dir name="Carrier"><dir name="etc"><file name="config.xml" hash=""/></dir></dir></dir></target><target name="magelocale"><dir/></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
