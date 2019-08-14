@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Parcify_Carrier>
+            <module>0.0.1</module>
+        </Parcify_Carrier>
+    </modules>
+    <global>
+        <models>
+            <parcify_carrier>
+                <class>Parcify_Carrier_Model</class>
+            </parcify_carrier>
+        </models>
+        <events>
+            <sales_order_shipment_save_before>
+                <observers>
+                    <parcify_carrier_model_observer>
+                        <type>singleton</type>
+                        <class>Parcify_Carrier_Model_Observer</class>
+                        <method>salesOrderShipmentSaveBefore</method>
+                    </parcify_carrier_model_observer>
+                </observers>
+            </sales_order_shipment_save_before>
+        </events>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <parcify_carrier>
+                    <files>
+                        <default>Parcify_Carrier.csv</default>
+                    </files>
+                </parcify_carrier>
+            </modules>
+        </translate>
+    </frontend>
+    <!-- Default configuration -->
+    <default>
+        <carriers>
+            <parcify_carrier>
+                <active>1</active>
+                <model>parcify_carrier/carrier</model>
+                <title>Parcify</title>
+                <price>4.50</price>
+                <free_shipping_subtotal>45</free_shipping_subtotal>
+                <parcelname>Pelican Rouge order #</parcelname>
+                <pickup_address>Sint-Aldegondiskaai 36, 2000 Antwerpen</pickup_address>
+                <sort_order>1</sort_order>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <gateway_url>https://api.parcify.it/v1</gateway_url>
+                <sallowspecific>0</sallowspecific>
+            </parcify_carrier>
+        </carriers>
+    </default>
+</config>
