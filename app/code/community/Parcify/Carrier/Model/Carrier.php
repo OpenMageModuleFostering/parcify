@@ -27,7 +27,7 @@ class Parcify_Carrier_Model_Carrier extends Mage_Shipping_Model_Carrier_Abstract
             return false;
         }
 
-        if (($request->getFreeShipping()) || ($request->getBaseSubtotalInclTax() >= $this->getConfigData('free_shipping_subtotal'))) {
+        if (($request->getFreeShipping()) || ($request->getBaseSubtotalInclTax() >= floatval($this->getConfigData('free_shipping_subtotal')))) {
             /**
              *  If the request has the free shipping flag,
              *  append a free shipping rate to the result.

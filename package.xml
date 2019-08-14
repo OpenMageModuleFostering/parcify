@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Parcify</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -12,7 +12,7 @@ Magento extension for integrating with the Parcify app.</summary>
     <description>Parcel delivery today isn&#x2019;t what it should be&#xD;
 We&#x2019;re still missing deliveries, unable to track parcels in real time and having to pick them up ourselves at depots. Why can&#x2019;t a parcel be picked up or delivered to my current location instead of a specific address?&#xD;
 &#xD;
-We want to change things by embracing the latest technologies while adding a personal touch. &#xD;
+We want to change things by embracing the latest technologies while adding a personal touch.&#xD;
 &#xD;
 The Parcify app features:&#xD;
 - Personal pick up and delivery at your position&#xD;
@@ -28,11 +28,11 @@ The Parcify app features:&#xD;
 Magento extension for integrating with the Parcify app.&#xD;
 &#xD;
 We use your GPS position in the foreground and background so that we can bring your parcel to your location. To be able to do this, Parcify needs to know your current location in real-time. Continued use of GPS running in the background can dramatically decrease battery life.</description>
-    <notes>- Fixed an issue the locale folder</notes>
+    <notes>Updated extension</notes>
     <authors><author><name>Parcify</name><user>parcify</user><email>app@parcify.com</email></author></authors>
-    <date>2016-08-16</date>
-    <time>14:42:45</time>
-    <contents><target name="magecommunity"><dir name="Parcify"><dir name="Carrier"><dir name="Model"><file name="Carrier.php" hash="e3e2952cea1e8a04777ec9812ac41da2"/><file name="Observer.php" hash="28f2447df3a84359362a3f204145b0e7"/></dir><dir name="etc"><file name="config.xml" hash="620e564cd44358468880fb00cc01aa61"/><file name="system.xml" hash="b124a8960a79b3384b3a43431b35425f"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="Translations"><dir name="etc"><file name="config.xml" hash="e09b4a8bfc13ec5b2ca27ff49208e8c3"/></dir><file name=".DS_Store" hash="521b787219559ffa4872d6712d1bb180"/></dir><file name=".DS_Store" hash="b6792e41331d5a1ad2268594e4c95785"/></dir></target><target name="mageetc"><dir name="modules"><file name="Parcify_Carrier.xml" hash="d04282cc1a091fc8438756ec48b7eafd"/></dir></target></contents>
+    <date>2016-09-09</date>
+    <time>14:39:02</time>
+    <contents><target name="magecommunity"><dir name="Parcify"><dir name="Carrier"><dir name="Model"><file name="Carrier.php" hash="aced6b8d2cd0590bac283f49cccffb73"/><file name="Observer.php" hash="28f2447df3a84359362a3f204145b0e7"/></dir><dir name="etc"><file name="config.xml" hash="620e564cd44358468880fb00cc01aa61"/><file name="system.xml" hash="b124a8960a79b3384b3a43431b35425f"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="Translations"><dir name="etc"><file name="config.xml" hash="e09b4a8bfc13ec5b2ca27ff49208e8c3"/></dir><file name=".DS_Store" hash="521b787219559ffa4872d6712d1bb180"/></dir><file name=".DS_Store" hash="b6792e41331d5a1ad2268594e4c95785"/></dir></target><target name="mageetc"><dir name="modules"><file name="Parcify_Carrier.xml" hash="d04282cc1a091fc8438756ec48b7eafd"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
 </package>
