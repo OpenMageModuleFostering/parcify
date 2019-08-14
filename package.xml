@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Parcify</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -31,8 +31,8 @@ We use your GPS position in the foreground and background so that we can bring y
     <notes>- Fixed an issue the locale folder</notes>
     <authors><author><name>Parcify</name><user>parcify</user><email>app@parcify.com</email></author></authors>
     <date>2016-08-16</date>
-    <time>14:20:41</time>
-    <contents><target name="magecommunity"><dir name="Parcify"><dir name="Carrier"><dir name="Model"><file name="Carrier.php" hash="e3e2952cea1e8a04777ec9812ac41da2"/><file name="Observer.php" hash="28f2447df3a84359362a3f204145b0e7"/></dir><dir name="etc"><file name="config.xml" hash="620e564cd44358468880fb00cc01aa61"/><file name="system.xml" hash="b124a8960a79b3384b3a43431b35425f"/></dir><dir name="locale"><dir name="fr_FR"><file name="Parcify_Carrier.csv" hash="1957e8bfed497a09e7085a2f58d0bb6f"/></dir><dir name="nl_NL"><file name="Parcify_Carrier.csv" hash="68455524d8b752133b91c8b301e90b81"/></dir><file name=".DS_Store" hash="cc332b840582e3c73f7e72c3efccb76a"/></dir><file name=".DS_Store" hash="9c1eabbd67a1f40dc85d61503491466a"/></dir><file name=".DS_Store" hash="c163e41cde922b3772c668fd0e0d1868"/></dir></target><target name="mageetc"><dir name="modules"><file name="Parcify_Carrier.xml" hash="93657d0745ae7b716023cf33e8f76b4c"/></dir></target></contents>
+    <time>14:42:45</time>
+    <contents><target name="magecommunity"><dir name="Parcify"><dir name="Carrier"><dir name="Model"><file name="Carrier.php" hash="e3e2952cea1e8a04777ec9812ac41da2"/><file name="Observer.php" hash="28f2447df3a84359362a3f204145b0e7"/></dir><dir name="etc"><file name="config.xml" hash="620e564cd44358468880fb00cc01aa61"/><file name="system.xml" hash="b124a8960a79b3384b3a43431b35425f"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="Translations"><dir name="etc"><file name="config.xml" hash="e09b4a8bfc13ec5b2ca27ff49208e8c3"/></dir><file name=".DS_Store" hash="521b787219559ffa4872d6712d1bb180"/></dir><file name=".DS_Store" hash="b6792e41331d5a1ad2268594e4c95785"/></dir></target><target name="mageetc"><dir name="modules"><file name="Parcify_Carrier.xml" hash="d04282cc1a091fc8438756ec48b7eafd"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
 </package>

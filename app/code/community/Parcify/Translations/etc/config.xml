@@ -8,9 +8,5 @@
                 <Mage_Shipping />
             </depends>
         </Parcify_Carrier>
-        <translations>
-            <active>true</active>
-            <codepool>community</codepool>
-        </translations>
     </modules>
 </config>
