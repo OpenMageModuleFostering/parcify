@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Parcify</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -23,14 +23,16 @@ The Parcify app features:&#xD;
 - Get reductions by using our coupons&#xD;
 - Sign-up to become a Parcify driver&#xD;
 ....&#xD;
-- much more to come&#xD;
+- much more to come&gt;Parcify, never miss you parcel&#xD;
+&#xD;
+Magento extension for integrating with the Parcify app.&#xD;
 &#xD;
 We use your GPS position in the foreground and background so that we can bring your parcel to your location. To be able to do this, Parcify needs to know your current location in real-time. Continued use of GPS running in the background can dramatically decrease battery life.</description>
-    <notes>Public release of the Parcify Magento extension</notes>
+    <notes>- Fixed an issue the locale folder</notes>
     <authors><author><name>Parcify</name><user>parcify</user><email>app@parcify.com</email></author></authors>
-    <date>2016-06-02</date>
-    <time>14:43:27</time>
-    <contents><target name="mageetc"><dir name="Parcify"><dir name="Carrier"><dir name="etc"><file name="config.xml" hash=""/></dir></dir></dir></target><target name="magelocale"><dir/></target></contents>
+    <date>2016-08-16</date>
+    <time>13:41:39</time>
+    <contents><target name="mageetc"><dir name="Parcify"><dir name="Carrier"><dir name="etc"><file name="config.xml" hash=""/></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
 </package>
