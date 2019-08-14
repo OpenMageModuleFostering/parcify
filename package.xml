@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Parcify</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -31,8 +31,8 @@ We use your GPS position in the foreground and background so that we can bring y
     <notes>- Fixed an issue the locale folder</notes>
     <authors><author><name>Parcify</name><user>parcify</user><email>app@parcify.com</email></author></authors>
     <date>2016-08-16</date>
-    <time>13:41:39</time>
-    <contents><target name="mageetc"><dir name="Parcify"><dir name="Carrier"><dir name="etc"><file name="config.xml" hash=""/></dir></dir></dir></target></contents>
+    <time>14:12:36</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Parcify_Carrier.xml" hash=""/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
 </package>
